@@ -3,11 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.dada{
-background-image: url(background.jpg);
-background-size: cover;
-background-position: center;
-}
 nav {
   display: inline-flex;
   align-items: center;
