@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home/About/Landing page</title>
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dada{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-top: 3vw;
+}
+.logo{
+  width: 20%;
+  margin-left: 1vw;
+}
+nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 1.5vw;
+  font-family: open sans-serif;
+  margin-left: 2vw;
+  padding: 1vw;
+}
+
+ul li:hover {
+    box-shadow: 0 4px 8px 0 rgba(17, 9, 9, 0.651), 0 6px 20px 0 rgba(70, 60, 60, 0.19);
+    transition: box-shadow 0.4s ease-in-out;
+    cursor:pointer;
+}
+ul li:hover::after{
+    width: 100%;
+}
+.container{
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 3vw;
+}
+h3{
+  margin-top: 1vh;
+}
+.here {
+    float: right;
+    width: 40vw;
+    height: 40vh;
+    margin-right: 8vw;
+    color: rgb(11, 17, 22);
+    border: 2px solid;
+    box-shadow:-4px 8px 8px rgba(0,0,0,0.1), -8px 16px 16px rgba(0,0,0,0.1);
+    border-color: #dceed1;
+    border-radius: 20px;
+    text-align: center;
+    font-size:  1.7vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5vw;
+}
+.here p{
+  margin-top: 2vh;
+}
+.container img{
+    margin: 0;
+    width: 50%;
+}
+footer{
+  background-color: #6a7b5d;
+    margin: 0;
+    padding: 2vw;
+    width: 100%;
+}
+footer img, p{
+display: inline-block;
+}
+footer img{
+  margin-top: 1vw;
+}
+footer p{
+    margin-left: 4vw;
+    font-family: open sans-serif;
+    font-size: 2vw;
+}
+footer small{
+    float: right;
+    font-family: open sans-serif;
+    font-size: 1vw;
+    margin-top: 2vh;
+}
+  a:link {
+    color: black;
+  }
+  a:visited {
+    color: rgb(199, 147, 79);
+  }
+  a:active {
+    color: blue;
+  }
+</style>
+
+<body>
+
+<div class="dada">
+    <nav>
+      <img src="hii.png" class="logo"></a></li>
+      <ul>
+        <li><a href="table markup.html"><b>Stats</b></a></li>
+        <li><a href="registration form.html"><b>Registration</b></a></li>
+        <li><a href="quiz.html"><b>Quiz App</b></a></li>
+      </ul>
+    </nav>
+   <div class="container">
+        <img src="IMG_20221028_141850.png" alt="picture" width="20%" height="10%">
+        <div class="here">
+        <h3>About the Designer</h3>
+        <br>
+        <hr>
+        <p>I am Danica T. Cabrera, a second-year college student taking a Bachelor of Science in Information Technology. I live in Cabugao Bato, Catanduanes. I don't have much experience in designing websites, so I'm thankful that you visited mine.</p>
+      </div>
+    </div>
+      <footer>
+        <p>Follow me on social media!</p>
+        <b><a href="https://www.facebook.com/danica.cabrera.144/"><img src="face.jpg" alt="" width="5%" style="clip-path: circle(); margin-left: 2vw;"></a></b>
+        <b><a href="https://www.instagram.com/daniccabrr/?hl=en"><img src="insta.jpg" alt="" width="5%" style="clip-path: circle(); margin-left: 2vw;"></a></b>
+      <small>Copyright CTD @ 2022</small>
+      </footer>
+    </div>
+</body>
+</html>
